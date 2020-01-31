@@ -1,0 +1,64 @@
+#include <iostream>
+#include "mylist.h"
+#include "mylist.cpp"
+
+using namespace std;
+class Node
+{
+public:
+    int data;
+    Node * next;
+};
+
+class List
+{
+friend class Node;
+
+public:
+    List();
+    void insertList(const int &x);
+//    void traverseList();
+
+private:
+    Node * head;
+};
+
+List()
+{
+    head = new Node;
+    head->next = NULL;
+}
+
+void insertList(const int &x)
+{
+    Node * cur = new Node;
+    cur->data = x;
+
+    head->next = cur;
+    cur->next = NULL;
+
+    head = cur;
+}
+
+void traverseList()
+{
+    Node * tmp;
+    tmp = head->next;
+
+    while(tmp->next != NULL)
+    {
+        std::cout<<tmp->data<<std::endl;
+        tmp = tmp->next;
+    }
+}
+
+int main()
+{
+    List ml;
+    ml.insertList(1);
+    ml.insertList(2);
+    ml.insertList(3);
+    
+    ml.traverseList();
+    return 0;
+}
