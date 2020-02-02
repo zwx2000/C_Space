@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+//    int arr[10]; // int *p + 10
+    
+//    //int [10] arr; type arr;
+//    int(*p)[10] = &arr;
+    
+    int arr[3][4];
+    
+//    int[4] arr[3]; type arr[3]; type[3] arr; type[3] *p;
+//    type(*p)[3]; int[4] (*p)[3]; int(*p)[3][4];
+    
+    int(*p)[3][4] = &arr;//二维数组指针
+//    int(*p)[4][3] = &arr;
+    
+    return 0;
+}

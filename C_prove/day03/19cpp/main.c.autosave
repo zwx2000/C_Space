@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    int arr[3][4];
+    
+    int(*p)[3][4] = &arr;
+    int(*p)[4][3] = &arr;
+    return 0;
+}
