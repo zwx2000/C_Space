@@ -27,7 +27,8 @@
 - ### [const修饰指针](https://github.com/zwx2000/C_Space/blob/master/C_improve/day03/10constPointer/main.c)
 - ### [函数指针](https://github.com/zwx2000/C_Space/blob/master/C_improve/day03/12funcpointer/main.c)
 - ### [回调函数](https://github.com/zwx2000/C_Space/tree/master/C_improve/day03/14callbackfunc)
-- ### [qsort之回调](https://github.com/zwx2000/C_Space/blob/master/C_improve/day03/15qsort/main.c)
+- ### [qsort之回调](https://github.com/zwx2000/C_Space/blob/master/C_improve/day03/15qsort/main.c)  
+## day 4
 - ### [选择排序及优化](https://github.com/zwx2000/C_Space/blob/master/C_improve/day04/02selectSort/main.c)
 - ### [冒泡排序及优化](https://github.com/zwx2000/C_Space/blob/master/C_improve/day04/03popSort/main.c)
 - ### [快速排序及优化](https://github.com/zwx2000/C_Space/blob/master/C_improve/day04/04quickSort/main.c)
@@ -44,4 +45,6 @@
 - ### [strtok](https://github.com/zwx2000/C_Space/blob/master/C_improve/day05/08strtok/main.c)
 - ### [strtok应用](https://github.com/zwx2000/C_Space/blob/master/C_improve/day05/09strtokapplication/main.c)
 - ### [字符串去空格系列](https://github.com/zwx2000/C_Space/blob/master/C_improve/day05/10login/main.c)
-- ### [递归逆转字符串](https://github.com/zwx2000/C_Space/blob/master/C_improve/day05/11reverseStr/main.c)
+- ### [递归逆转字符串](https://github.com/zwx2000/C_Space/blob/master/C_improve/day05/11reverseStr/main.c)  
+## day 6
+- ### [贪吃蛇](https://github.com/zwx2000/C_Space/blob/master/C_improve/day06/01mySnake/main.c)  
